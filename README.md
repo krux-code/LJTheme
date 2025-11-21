@@ -31,7 +31,7 @@ El diseño elimina el ruido visual innecesario, priorizando la legibilidad y la 
 
 ## Instalación
 
-Siga estos pasos estrictos para la implementación del tema en su entorno de producción.
+Siga estos pasos para la implementación del tema en su entorno de producción.
 
 ### 1. Clonar el Repositorio
 
