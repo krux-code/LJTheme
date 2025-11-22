@@ -578,7 +578,7 @@
   })
   @endif
 </script>
-<script>document.addEventListener("DOMContentLoaded",function(){var f=document.querySelector(".main-footer");if(f){f.innerHTML="<div class=\"may-footer\">Powered by CtrlPanel <span style=\"margin:0 10px\">|</span> <a href=\"https://github.com/SoySapo6\" target=\"_blank\" class=\"may-credit-box\"><div class=\"may-wave\"></div><div class=\"may-wave\"></div><span class=\"may-credit-text\">SoyMaycol</span></a></div>"}});</script>
+<script>document.addEventListener("DOMContentLoaded",function(){var f=document.querySelector(".main-footer");if(f){f.innerHTML="<div class=\"may-footer\">Powered by CtrlPanel <span style=\"margin:0 10px\">|</span> <a href=\"https://github.com/Ado21\" target=\"_blank\" class=\"may-credit-box\"><div class=\"may-wave\"></div><div class=\"may-wave\"></div><span class=\"may-credit-text\">OFC THEME RTA</span></a></div>"}});</script>
 </body>
 
 </html>
