@@ -78,13 +78,6 @@
     <!-- Right navbar links -->
     <ul class="ml-auto navbar-nav">
 
-      <!-- Theme Toggle -->
-      <li class="nav-item">
-          <a class="nav-link" href="#" id="theme-toggle" role="button" title="Toggle Theme">
-              <i class="fas fa-moon"></i>
-          </a>
-      </li>
-
       <li class="nav-item dropdown">
         <a class="px-2 nav-link" href="#" id="userDropdown" role="button" data-toggle="dropdown"
            aria-haspopup="true" aria-expanded="false">
@@ -586,56 +579,6 @@
   @endif
 </script>
 <script>document.addEventListener("DOMContentLoaded",function(){var f=document.querySelector(".main-footer");if(f){f.innerHTML="<div class=\"may-footer\">Powered by CtrlPanel <span style=\"margin:0 10px\">|</span> <a href=\"https://github.com/Ado21\" target=\"_blank\" class=\"may-credit-box\"><div class=\"may-wave\"></div><div class=\"may-wave\"></div><span class=\"may-credit-text\">OFC THEME RTA</span></a></div>"}});</script>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const toggle = document.getElementById('theme-toggle');
-        const body = document.body;
-        const icon = toggle ? toggle.querySelector('i') : null;
-
-        // Check localStorage for theme preference
-        const savedTheme = localStorage.getItem('theme') || 'dark';
-
-        // Apply theme
-        if (savedTheme === 'light') {
-            body.setAttribute('data-theme', 'light');
-            if(icon) {
-                icon.classList.remove('fa-moon');
-                icon.classList.add('fa-sun');
-            }
-        } else {
-             body.removeAttribute('data-theme'); // Default is dark
-             if(icon) {
-                icon.classList.remove('fa-sun');
-                icon.classList.add('fa-moon');
-            }
-        }
-
-        if(toggle) {
-            toggle.addEventListener('click', function(e) {
-                e.preventDefault();
-
-                if (body.getAttribute('data-theme') === 'light') {
-                    // Switch to Dark
-                    body.removeAttribute('data-theme');
-                    localStorage.setItem('theme', 'dark');
-                    if(icon) {
-                        icon.classList.remove('fa-sun');
-                        icon.classList.add('fa-moon');
-                    }
-                } else {
-                    // Switch to Light
-                    body.setAttribute('data-theme', 'light');
-                    localStorage.setItem('theme', 'light');
-                     if(icon) {
-                        icon.classList.remove('fa-moon');
-                        icon.classList.add('fa-sun');
-                    }
-                }
-            });
-        }
-    });
-</script>
 </body>
 
 </html>
