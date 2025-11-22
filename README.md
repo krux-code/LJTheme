@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="https://dash.nefu.life/storage/icon.png" width="220" alt="MayHost Logo">
+  <img src="https://dash.nefu.life/storage/icon.png" width="220" alt="LJTheme Logo">
 </p>
 
-<h1 align="center">MayTheme</h1>
+<h1 align="center">LJTheme</h1>
 
 <p align="center">
-  <strong>Interfaz visual de alto rendimiento para CtrlPanel.gg</strong><br>
-  Diseñado exclusivamente para <a href="https://dash.nefu.life">MayHost</a>.
+  <strong>Interfaz moderna, limpia y minimalista para CtrlPanel.gg</strong><br>
+  Rediseñado para ofrecer una experiencia de usuario superior.
 </p>
 
 |                     |                     |                     |
@@ -18,46 +18,49 @@
 
 ## Descripción
 
-MayTheme es una modificación visual integral para el panel de gestión de servidores CtrlPanel.gg. Este tema ha sido desarrollado con un enfoque en el minimalismo, el alto contraste (Dark Mode) y la fluidez de interacción mediante animaciones CSS aceleradas por hardware.
+LJTheme es una transformación visual moderna para CtrlPanel.gg. Enfocado en la limpieza, el minimalismo y la usabilidad, este tema proporciona una interfaz agradable y profesional.
 
-El diseño elimina el ruido visual innecesario, priorizando la legibilidad y la experiencia de usuario tanto en dispositivos móviles como en escritorio.
+Con un diseño inspirado en las tendencias modernas (Glassmorphism, colores planos, bordes redondeados), LJTheme mejora significativamente la apariencia de su panel sin sacrificar el rendimiento.
 
-## Características Técnicas
+## Características
 
-*   **Arquitectura Visual:** Diseño High-Contrast (Fondo #000000 puro) con bordes blancos definidos.
-*   **Motor de Animaciones:** Transiciones CSS3 fluidas para elementos interactivos (hover, focus, modales).
-*   **Responsive Design:** Adaptación nativa corregida para viewports móviles sin colisiones de elementos.
-*   **Footer Dinámico:** Inyección de créditos mediante JavaScript para evitar conflictos con el motor de plantillas Blade.
+*   **Diseño Moderno:** Interfaz limpia con una paleta de colores moderna (Azul/Gris Oscuro).
+*   **UI Refinada:** Bordes redondeados, sombras sutiles y mejor espaciado.
+*   **Alto Rendimiento:** CSS optimizado para una carga rápida.
+*   **Dark Mode Nativo:** Diseñado específicamente para entornos oscuros, reduciendo la fatiga visual.
+*   **Responsive:** Funciona perfectamente en móviles y escritorio.
 
-## Instalación
+## Instalación en Ctrl Panel
 
-Siga estos pasos para la implementación del tema en su entorno de producción.
+Siga estos pasos para instalar el tema en su panel.
 
-### 1. Clonar el Repositorio
+### 1. Instalar los archivos
 
-Acceda al directorio de temas de su instalación CtrlPanel y clone los archivos fuente.
+Acceda a su servidor mediante SSH y ejecute los siguientes comandos para descargar e instalar el tema:
 
 ```bash
 cd /var/www/ctrlpanel/themes
-git clone https://github.com/SoySapo6/MayTheme.git
-mv /var/www/ctrlpanel/themes/MayTheme/MayTheme /var/www/ctrlpanel/public/themes
+git clone https://github.com/SoySapo6/MayTheme.git LJTheme
+mv LJTheme/LJTheme /var/www/ctrlpanel/public/themes/LJTheme
 ```
 
-### 2. Activación
+*(Nota: Si el repositorio ha cambiado de nombre, ajuste la URL del git clone acorde)*
 
-1.  Ingrese a su panel de administración.
-2.  Navegue a **Configuraciones** > **General**.
-3.  Bajas hasta encontrarte con "Theme", seleccione **MayTheme**.
-4.  Guarde los cambios.
+### 2. Activar el tema
 
-## Créditos y Atribución
+1.  Inicie sesión en su panel de administración (Admin Area).
+2.  Vaya a **Settings** (Configuración) > **General**.
+3.  Busque la opción **Theme**.
+4.  Seleccione **LJTheme** en el menú desplegable.
+5.  Haga clic en **Save** (Guardar) para aplicar los cambios.
 
-Este tema utiliza como base estructural el tema **BlueInfinity** para garantizar la compatibilidad con las versiones actuales de CtrlPanel.gg, sobre el cual se ha reescrito la capa de presentación (CSS/JS).
+¡Listo! Su panel ahora lucirá moderno y limpio con LJTheme.
 
-*   **Desarrollador Principal:** SoyMaycol
-*   **Organización:** MayHost
-*   **Base:** BlueInfinity Theme
+## Créditos
+
+*   **Desarrollador:** SoyMaycol
+*   **Base:** BlueInfinity Theme / MayTheme
 
 ---
 
-Copyright &copy; 2025 MayHost. Todos los derechos reservados.
+Copyright &copy; 2025. Todos los derechos reservados.

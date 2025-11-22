@@ -49,8 +49,7 @@
       display: none !important;
     }
   </style>
-  <link rel="stylesheet" href="{{ asset('themes/MayTheme/app.css') }}">
-<link rel="stylesheet" href="{{ asset("themes/MayTheme/css/may_final.css") }}?v=9.0">
+  <link rel="stylesheet" href="{{ asset('themes/LJTheme/app.css') }}">
 </head>
 
 <body class="sidebar-mini layout-fixed dark-mode" style="height: auto;">

@@ -41,8 +41,7 @@
         @break
     @endswitch
   @endif
-  <link rel="stylesheet" href="{{ asset('themes/MayTheme/app.css') }}">
-<link rel="stylesheet" href="{{ asset("themes/MayTheme/css/may_final.css") }}?v=9.0">
+  <link rel="stylesheet" href="{{ asset('themes/LJTheme/app.css') }}">
 </head>
 @yield('content')
 

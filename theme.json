@@ -1,9 +1,9 @@
 {
-    "name": "MayTheme",
-    "title": "MayTheme • Tema para CtrlPanel",
-    "description": "Tema definitivo animado alto rendimiento y fluido con animaciones y colores de blanco y negro",
+    "name": "LJTheme",
+    "title": "LJTheme • Tema Moderno para CtrlPanel",
+    "description": "Tema moderno, limpio y minimalista para CtrlPanel.gg",
     "parent": "default",
     "path": "themes/LJTheme",
-    "version": "9.0",
+    "version": "1.0",
     "author": "SoyMaycol"
 }
