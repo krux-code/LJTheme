@@ -578,7 +578,22 @@
   })
   @endif
 </script>
-<script>document.addEventListener("DOMContentLoaded",function(){var f=document.querySelector(".main-footer");if(f){f.innerHTML="<div class=\"may-footer\">Powered by CtrlPanel <span style=\"margin:0 10px\">|</span> <a href=\"https://github.com/Ado21\" target=\"_blank\" class=\"may-credit-box\"><div class=\"may-wave\"></div><div class=\"may-wave\"></div><span class=\"may-credit-text\">OFC THEME RTA</span></a></div>"}});</script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var f = document.querySelector(".main-footer");
+    if (f) {
+      f.innerHTML = `
+        <div class="text-center">
+          <strong>Copyright &copy; 2021-${new Date().getFullYear()} <a href="{{ url('/') }}">{{ config('app.name','Ctrlpanel.gg') }}</a>.</strong>
+          All rights reserved. Powered by <a href="https://CtrlPanel.gg" target="_blank">CtrlPanel</a>.
+          @if (!str_contains(config('BRANCHNAME'), 'main') && !str_contains(config('BRANCHNAME'), 'unknown'))
+            Version <b>{{ config('app')['version'] }} - {{ config('BRANCHNAME') }}</b>
+          @endif
+        </div>
+      `;
+    }
+  });
+</script>
 </body>
 
 </html>
